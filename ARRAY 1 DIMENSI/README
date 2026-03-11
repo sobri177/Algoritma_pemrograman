@@ -1,0 +1,108 @@
+# Program Array 1 Dimensi – Data Mahasiswa (Java)
+
+
+
+
+
+
+Program ini dibuat menggunakan bahasa pemrograman Java untuk mempelajari konsep Array 1 Dimensi dalam mata kuliah Algoritma dan Pemrograman.
+
+Array satu dimensi digunakan untuk menyimpan beberapa data dengan tipe yang sama dalam satu variabel yang memiliki indeks.
+
+Pada program ini, array digunakan untuk menyimpan data mahasiswa berupa:
+
+Nama
+
+NIM
+
+Nilai
+
+## Tujuan Program
+
+Tujuan dari pembuatan program ini adalah:
+
+Memahami konsep array satu dimensi
+
+Melatih penggunaan perulangan (looping)
+
+Mengelola data menggunakan array
+
+Menampilkan data mahasiswa menggunakan program Java
+
+Menghitung rata-rata nilai mahasiswa
+
+Menentukan nilai tertinggi
+
+## Data Mahasiswa
+
+Data mahasiswa yang digunakan dalam program:
+
+No	Nama	NIM	Nilai
+1	Sobri	312510236	90
+2	Diky	312510207	85
+3	Bara	312510253	88
+🧠 Konsep yang Digunakan
+
+Beberapa konsep pemrograman yang digunakan dalam program ini:
+
+1️⃣ Array 1 Dimensi
+
+Array digunakan untuk menyimpan beberapa nilai dalam satu variabel.
+
+Contoh:
+
+String[] nama = {"Sobri", "Diky", "Bara"};
+2️⃣ Perulangan (Looping)
+
+Perulangan digunakan untuk menampilkan semua data dalam array.
+
+Contoh:
+
+for(int i = 0; i < nama.length; i++)
+3️⃣ Operasi Perhitungan
+
+Program menghitung:
+
+Total nilai
+
+Rata-rata nilai
+
+Nilai tertinggi
+
+💻 Source Code Program
+public class DataMahasiswa {
+
+    public static void main(String[] args) {
+
+        String[] nama = {"Sobri", "Diky", "Bara"};
+        String[] nim = {"312510236", "312510207", "312510253"};
+        int[] nilai = {90, 85, 88};
+
+        int total = 0;
+        int nilaiTertinggi = nilai[0];
+
+        System.out.println("Data Nilai Mahasiswa");
+        System.out.println("---------------------------");
+
+        for(int i = 0; i < nama.length; i++){
+
+            System.out.println("Nama  : " + nama[i]);
+            System.out.println("NIM   : " + nim[i]);
+            System.out.println("Nilai : " + nilai[i]);
+            System.out.println();
+
+            total += nilai[i];
+
+            if(nilai[i] > nilaiTertinggi){
+                nilaiTertinggi = nilai[i];
+            }
+        }
+
+        double rata = (double) total / nama.length;
+
+        System.out.println("Rata-rata Nilai : " + rata);
+        System.out.println("Nilai Tertinggi : " + nilaiTertinggi);
+
+    }
+}
+🖥 Contoh Output Program
