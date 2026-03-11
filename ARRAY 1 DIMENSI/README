@@ -1,4 +1,4 @@
-#  PROGRAM ARRAY 1 DIMENSI – DATA MAHASISWA (JAVA)
+# PROGRAM ARRAY 1 DIMENSI – DATA MAHASISWA (JAVA)
 
 Program ini dibuat menggunakan **bahasa pemrograman Java** untuk mempelajari konsep **Array 1 Dimensi** dalam mata kuliah **Algoritma dan Pemrograman**.
 
@@ -11,7 +11,7 @@ Pada program ini array digunakan untuk menyimpan **data mahasiswa** seperti:
 
 ---
 
-# 🎯 TUJUAN PROGRAM
+## TUJUAN PROGRAM
 
 Tujuan dari pembuatan program ini adalah:
 
@@ -23,7 +23,7 @@ Tujuan dari pembuatan program ini adalah:
 
 ---
 
-# 📚 DATA MAHASISWA
+## DATA MAHASISWA
 
 | No | Nama | NIM | Nilai |
 |----|------|------|------|
