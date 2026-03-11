@@ -1,4 +1,6 @@
+
 # PROGRAM ARRAY 1 DIMENSI – DATA MAHASISWA (JAVA)
+## Author = Sobri
 
 Program ini dibuat menggunakan **bahasa pemrograman Java** untuk mempelajari konsep **Array 1 Dimensi** dalam mata kuliah **Algoritma dan Pemrograman**.
 
