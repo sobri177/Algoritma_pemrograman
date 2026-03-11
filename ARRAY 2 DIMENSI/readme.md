@@ -1,4 +1,5 @@
 # PROGRAM ARRAY 2 DIMENSI – DATA MAHASISWA (JAVA)
+## Author = Muhammad Bara Febriansyah
 
 Program ini dibuat menggunakan **bahasa pemrograman Java** untuk mempelajari konsep **Array 2 Dimensi** dalam mata kuliah **Algoritma dan Pemrograman**.
 
