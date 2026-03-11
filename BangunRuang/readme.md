@@ -1,5 +1,5 @@
 # PROGRAM BANGUN RUANG (JAVA)
-
+## Author = Diky Muhammad Azdzikro
 Program ini dibuat menggunakan **bahasa pemrograman Java** untuk menghitung **volume berbagai bangun ruang** dalam mata kuliah **Algoritma dan Pemrograman**.
 
 Bangun ruang yang dihitung dalam program ini yaitu:
