@@ -14,7 +14,7 @@ No	Program	Deskripsi
 ## Program Array 1 Dimensi
 Program ini menggunakan array satu dimensi untuk menyimpan beberapa data seperti nama, NIM, dan nilai mahasiswa.
 
-Contoh Source Code
+## Contoh Source Code
 public class DataMahasiswa {
 
     public static void main(String[] args) {
@@ -32,11 +32,12 @@ public class DataMahasiswa {
 
     }
 }
- #Program Array 2 Dimensi
+
+## Program Array 2 Dimensi
 
 Program ini menggunakan array dua dimensi untuk menyimpan data dalam bentuk baris dan kolom (matriks).
 
-Contoh Source Code
+## Contoh Source Code
 public class ArrayDuaDimensi {
 
     public static void main(String[] args) {
@@ -56,11 +57,12 @@ public class ArrayDuaDimensi {
 
     }
 }
-#Program Bangun Ruang
+
+## Program Bangun Ruang
 
 Program ini digunakan untuk menghitung volume bangun ruang kubus.
 
-Contoh Source Code
+## Contoh Source Code
 import java.util.Scanner;
 
 public class BangunRuang {
