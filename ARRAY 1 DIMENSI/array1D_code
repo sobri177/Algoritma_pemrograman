@@ -1,0 +1,17 @@
+public class DataMahasiswa {
+
+    public static void main(String[] args) {
+
+        String[] nama = {"Sobri", "Diky", "Bara"};
+        String[] nim = {"312510236", "312510207", "312510253"};
+        int[] nilai = {90, 85, 88};
+
+        for(int i = 0; i < nama.length; i++){
+            System.out.println("Nama  : " + nama[i]);
+            System.out.println("NIM   : " + nim[i]);
+            System.out.println("Nilai : " + nilai[i]);
+            System.out.println();
+        }
+
+    }
+}
