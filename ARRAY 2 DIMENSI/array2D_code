@@ -1,0 +1,23 @@
+public class Array2Dimensi {
+
+    public static void main(String[] args) {
+
+        String[][] mahasiswa = {
+            {"Sobri","312510236","90"},
+            {"Diky","312510207","85"},
+            {"Bara","312510253","88"}
+        };
+
+        System.out.println("DATA MAHASISWA");
+        System.out.println("--------------------");
+
+        for(int i=0;i<mahasiswa.length;i++){
+
+            for(int j=0;j<mahasiswa[i].length;j++){
+                System.out.print(mahasiswa[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+    }
+}
