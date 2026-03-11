@@ -1,17 +1,17 @@
-Algoritma dan Pemrograman - Java
+# Algoritma dan Pemrograman - Java
 
 
 
 Repository ini berisi kumpulan program sederhana yang dibuat untuk memenuhi tugas Mata Kuliah Algoritma dan Pemrograman.
 Program dibuat menggunakan bahasa pemrograman Java untuk memahami konsep dasar seperti array dan perhitungan bangun ruang.
 
- #Daftar Program
+# Daftar Program
 No	Program	Deskripsi
 1	Bangun Ruang	Program menghitung volume bangun ruang
 2	Array 1 Dimensi	Program menyimpan dan menampilkan data menggunakan array
 3	Array 2 Dimensi	Program mengolah data dalam bentuk matriks
 
- #Program Array 1 Dimensi
+## Program Array 1 Dimensi
 Program ini menggunakan array satu dimensi untuk menyimpan beberapa data seperti nama, NIM, dan nilai mahasiswa.
 
 Contoh Source Code
